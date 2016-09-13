@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="今日热点"
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/redian"/>
+    <item android:title="喜爱">
+        <menu>
+            <group>
+                <item android:title="热点新闻"
+                    android:icon="@mipmap/ic_launcher"
+                    android:id="@+id/xinwen"/>
+                <item android:title="喜爱收藏"
+                    android:icon="@mipmap/ic_launcher"
+                    android:id="@+id/shoucang"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="每日干货"
+        android:icon="@mipmap/ic_launcher"
+        android:id="@+id/ganhuo"/>
+    <item android:title="流行">
+        <menu>
+            <group>
+                <item android:title="关注焦点"
+                    android:icon="@mipmap/ic_launcher"
+                    android:id="@+id/jiaodian"/>
+                <item android:title="个人中心"
+                    android:icon="@mipmap/ic_launcher"
+                    android:id="@+id/zhongxin"/>
+            </group>
+        </menu>
+    </item>
+</menu>
